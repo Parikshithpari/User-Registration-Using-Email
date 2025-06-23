@@ -5,8 +5,6 @@ Secure and scalable user registration system using Spring Boot with email verifi
 
 This project is a Spring Boot-based backend service that enables secure user registration with email verification. It's designed using a modular architecture to support scalability and can be easily integrated into larger systems.
 
-<br>
-
 ## ✨ Features
 
 - User account creation with email-based verification
