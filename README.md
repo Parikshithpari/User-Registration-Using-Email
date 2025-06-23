@@ -54,6 +54,13 @@ src/
     └── resources/
         └── application.properties
 
+## 🧠 Future Enhancements
+- Password reset functionality
+- Rate limiting to prevent abuse
+- Integration with frontend (React/Vue)
+- OAuth2 login (Google, GitHub)
+
+
 
 
 
