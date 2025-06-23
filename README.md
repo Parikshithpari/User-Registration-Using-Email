@@ -40,3 +40,21 @@ This project is a Spring Boot-based backend service that enables secure user reg
 - Maven
 - H2 Database
 
+
+## 📁 Project Structure
+src/
+└── main/
+    ├── java/
+    │   └── com.example.registration/
+    │       ├── controller/
+    │       ├── model/
+    │       ├── repository/
+    │       ├── service/
+    │       └── config/
+    └── resources/
+        └── application.properties
+
+
+
+
+
