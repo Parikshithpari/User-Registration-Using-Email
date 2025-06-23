@@ -21,7 +21,7 @@ This project is a Spring Boot-based backend service that enables secure user reg
 - **Spring Boot**
 - **Spring Security**
 - **Spring Data JPA**
-- **MySQL**
+- **H2 Database**
 - **JavaMailSender**
 - **Lombok**
 
@@ -38,6 +38,5 @@ This project is a Spring Boot-based backend service that enables secure user reg
 
 - Java 21
 - Maven
-- MySQL
-- H2Database
+- H2 Database
 
