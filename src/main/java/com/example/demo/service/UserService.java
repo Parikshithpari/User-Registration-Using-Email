@@ -44,6 +44,10 @@ public class UserService
 		if(userOpt.isPresent())
 		{
 			Users user = userOpt.get();
+			if(user.isVerified())
+			{
+				return false;
+			}
 			user.setVerified(true);
 			user.setVerificationToken(null);
 			userRepo.save(user);
