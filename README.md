@@ -40,3 +40,17 @@ This project is a Spring Boot-based backend service that enables secure user reg
 - Maven
 - H2 Database
 
+## ✅ Testing Summary
+
+All controller and service layer endpoints are covered by:
+
+- **Unit Tests** using `@WebMvcTest`, `@MockBean`
+- **Integration Tests** using `@SpringBootTest`, `MockMvc`
+- **Edge Case Validation**: Invalid tokens, duplicate emails, etc.
+- All tests passed successfully ✔️
+
+Run tests with:
+```bash
+mvn test
+
+
